@@ -1,0 +1,12 @@
+@import 'varibles';
+
+.form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.form__btn_submit {
+    margin: 5% auto 0 auto !important;
+    width: 80%;
+}

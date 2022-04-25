@@ -1,0 +1,53 @@
+@import 'varibles';
+
+.list {
+    list-style-type: none;     
+    font-size: 14px;
+    width: 100%;
+    margin: 0;
+    padding: 15px;
+}
+
+.list__item {
+    padding: 2%;
+    background-color: $color-list;
+    border-radius: 8px;
+    position: relative;
+
+    &:not(:last-child) {
+        margin: 0 0 2% 0;
+    }
+
+    @media screen and (max-width: 886px) {
+        padding: 4%;
+    }
+
+    @media screen and (max-width: 610px) {
+        padding: 5%;
+    }
+}   
+
+.list__item__title {
+    font-size: 20px;
+    padding: 0 0 1% 0;
+    margin: 0;
+}
+
+.list__item__date {
+    font-size: 12px;
+    color: $color-list-date;
+}
+
+.list__item__btns {
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    top: 5px;
+    right: 0;
+}
+
+.css-4rs8rr-MuiPaper-root {
+    @media screen and (max-width: 750px) {
+        width: 100% !important;
+    }
+}

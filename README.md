@@ -1,6 +1,6 @@
 # Getting Started with Create React App
 
-React + Redux exmple.
+React + Redux example.
 
 # Heroku
 

@@ -1,6 +1,6 @@
 const FakeUsers = {
-  user  : { password : 'user' , isStaff: false, isUser: true },
-  admin : { password : 'admin', isStaff: true, isUser: false },
+  user  : { password : 'user' , isStaff: false },
+  admin : { password : 'admin', isStaff: true  },
 }
 
 

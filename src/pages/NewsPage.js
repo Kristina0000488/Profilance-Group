@@ -41,7 +41,7 @@ export default function NewsPage()
 
     function renderAddNews()
     {
-        if ( !!auth.isUser ) {
+        if ( !auth.isStaff && auth.username === 'user' ) {
             return <Button 
                 variant="contained"
                 className="news__btn"

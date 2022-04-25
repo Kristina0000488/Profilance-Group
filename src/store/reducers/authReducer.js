@@ -2,7 +2,7 @@ const initialState = {
     user : {
         username: null,
         isStaff : false,
-        isUser  : false
+        //isUser  : false
     }
 }
 
